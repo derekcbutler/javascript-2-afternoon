@@ -132,21 +132,21 @@ let methodCollection = {}
 */
 
 //Code Here
-methodCollection.alertHello = alert('hello');
-methodCollection.logHello = console.log('hello');
-
-function alertHello(){
+methodCollection.alertHello = function(){
   alert('hello');
 }
-function logHello(){
+methodCollection.logHello = function(){
   console.log('hello');
 }
+
+
 /*
   Now call your alertHello and logHello methods.
 */
 
 //Code Here
-
+methodCollection.alertHello()
+methodCollection.logHello()
 ////////// PROBLEM 6 //////////
 
 /*
@@ -155,6 +155,9 @@ function logHello(){
 */
 
 //Code Here
+function makePerson(names, birthday, ssn){
+  
+}
 
 ////////// PROBLEM 7 //////////
 
